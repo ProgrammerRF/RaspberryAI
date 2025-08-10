@@ -1,0 +1,310 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/Python/Sistema_Embarcado/.kivy/logs/kivy_25-08-05_9.txt
+[INFO   ] Kivy: v2.3.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.13.2 (main, Apr 27 2025, 04:34:27) [GCC 11.4.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/bin/python3"
+[INFO   ] Logger: Purge log fired. Processing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 195 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 build 1.15@6133110'>
+[INFO   ] GL: OpenGL vendor <b'Imagination Technologies'>
+[INFO   ] GL: OpenGL renderer <b'PowerVR B-Series BXM-8-256'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <24>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Audio: Providers: audio_sdl2 (audio_android, audio_ffpyplayer ignored)
+[DEBUG  ] text: Teste
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7bfcd758a0>, <function end_of_line at 0x7bfcd76c00>, <function abbreviations at 0x7bfcd76ca0>, <function word_sub at 0x7bfcd76d40>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\\[|‥|—|，|;|¿|\\(|…|¡|،|。|、|\\)|\\\n|：', re.IGNORECASE) from: [<function tone_marks at 0x7bfcd76f20>, <function period_comma at 0x7bfcd76fc0>, <function colon at 0x7bfcd77060>, <function other_punctuation at 0x7bfcd77100>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7bfcd758a0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7bfcd76c00>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7bfcd76ca0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7bfcd76d40>
+[DEBUG  ] text_parts: ['Teste']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Teste%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '135'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='fala.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to fala.mp3
+[INFO   ] GL: NPOT texture support is available
+[DEBUG  ] text: Olá. para acessar a plataforma faça Login
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7bfcd758a0>, <function end_of_line at 0x7bfcd76c00>, <function abbreviations at 0x7bfcd76ca0>, <function word_sub at 0x7bfcd76d40>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\\[|‥|—|，|;|¿|\\(|…|¡|،|。|、|\\)|\\\n|：', re.IGNORECASE) from: [<function tone_marks at 0x7bfcd76f20>, <function period_comma at 0x7bfcd76fc0>, <function colon at 0x7bfcd77060>, <function other_punctuation at 0x7bfcd77100>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7bfcd758a0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7bfcd76c00>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7bfcd76ca0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7bfcd76d40>
+[DEBUG  ] text_parts: ['Olá. para acessar a plataforma faça Login']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ol%5C%5Cu00e1.%20para%20acessar%20a%20plataforma%20fa%5C%5Cu00e7a%20Login%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '203'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/Olá. para acessar a plataforma faça Login.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/Olá. para acessar a plataforma faça Login.mp3
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/email/.json HTTP/1.1" 200 18
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/senha/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7bfcd758a0>, <function end_of_line at 0x7bfcd76c00>, <function abbreviations at 0x7bfcd76ca0>, <function word_sub at 0x7bfcd76d40>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\\[|‥|—|，|;|¿|\\(|…|¡|،|。|、|\\)|\\\n|：', re.IGNORECASE) from: [<function tone_marks at 0x7bfcd76f20>, <function period_comma at 0x7bfcd76fc0>, <function colon at 0x7bfcd77060>, <function other_punctuation at 0x7bfcd77100>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7bfcd758a0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7bfcd76c00>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7bfcd76ca0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7bfcd76d40>
+[DEBUG  ] text_parts: ['Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ol%5C%5Cu00e1%2C%20Rafael%2C%20Seja%20bem%20vindo%20a%20ascen%5C%5Cu00e7%5C%5Cu00e3o.%20Como%20posso%20te%20ajudar%20hoje%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '251'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje.mp3
+[DEBUG  ] Starting new HTTPS connection (1): api.together.ai:443
+[DEBUG  ] https://api.together.ai:443 "POST /v1/chat/completions HTTP/1.1" 200 None
+[DEBUG  ] text: Resposta:  Hello! How can I help you today If you have any questions or need assistance with something, feel free to ask. I'm here to help.
+
+For example, if you're looking for information on a specific topic, I can provide you with resources and explanations. If you need help with a problem, I can try to guide you through the steps to find a solution.
+
+So, what can I help you with today
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7bfcd758a0>, <function end_of_line at 0x7bfcd76c00>, <function abbreviations at 0x7bfcd76ca0>, <function word_sub at 0x7bfcd76d40>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\\[|‥|—|，|;|¿|\\(|…|¡|،|。|、|\\)|\\\n|：', re.IGNORECASE) from: [<function tone_marks at 0x7bfcd76f20>, <function period_comma at 0x7bfcd76fc0>, <function colon at 0x7bfcd77060>, <function other_punctuation at 0x7bfcd77100>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7bfcd758a0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7bfcd76c00>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7bfcd76ca0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7bfcd76d40>
+[DEBUG  ] tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\]|\\[|‥|—|，|;|¿|\\(|…|¡|،|。|、|\\)|\\\n|：', re.IGNORECASE) from: [<function tone_marks at 0x7bfcd76f20>, <function period_comma at 0x7bfcd76fc0>, <function colon at 0x7bfcd77060>, <function other_punctuation at 0x7bfcd77100>]>
+[DEBUG  ] text_parts: ['Resposta', 'Hello!', 'How can I help you today If you have any questions or need assistance with something', 'feel free to ask', "I'm here to help.", 'For example', "if you're looking for information on a specific topic", 'I can provide you with resources and explanations', 'If you need help with a problem', 'I can try to guide you through the steps to find a solution.', 'So', 'what can I help you with today']
+[DEBUG  ] text_parts: 12
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Resposta%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hello%21%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22How%20can%20I%20help%20you%20today%20If%20you%20have%20any%20questions%20or%20need%20assistance%20with%20something%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22feel%20free%20to%20ask%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-4: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22I%27m%20here%20to%20help.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-5: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22For%20example%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-6: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22if%20you%27re%20looking%20for%20information%20on%20a%20specific%20topic%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-7: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22I%20can%20provide%20you%20with%20resources%20and%20explanations%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-8: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22If%20you%20need%20help%20with%20a%20problem%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-9: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22I%20can%20try%20to%20guide%20you%20through%20the%20steps%20to%20find%20a%20solution.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-10: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22So%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-11: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22what%20can%20I%20help%20you%20with%20today%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '138'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '138'}
+[DEBUG  ] url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-1: 200
+[DEBUG  ] part-1 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-1 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '244'}
+[DEBUG  ] url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-2: 200
+[DEBUG  ] part-2 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-2 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-3: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '152'}
+[DEBUG  ] url-3: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-3: 200
+[DEBUG  ] part-3 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-3 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-4: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '155'}
+[DEBUG  ] url-4: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-4: 200
+[DEBUG  ] part-4 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-4 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-5: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '143'}
+[DEBUG  ] url-5: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-5: 200
+[DEBUG  ] part-5 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-5 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-6: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '201'}
+[DEBUG  ] url-6: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-6: 200
+[DEBUG  ] part-6 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-6 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-7: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '193'}
+[DEBUG  ] url-7: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-7: 200
+[DEBUG  ] part-7 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-7 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-8: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '173'}
+[DEBUG  ] url-8: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-8: 200
+[DEBUG  ] part-8 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-8 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-9: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '214'}
+[DEBUG  ] url-9: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-9: 200
+[DEBUG  ] part-9 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-9 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-10: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '132'}
+[DEBUG  ] url-10: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-10: 200
+[DEBUG  ] part-10 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-10 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-11: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '172'}
+[DEBUG  ] url-11: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-11: 200
+[DEBUG  ] part-11 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-11 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "PATCH /Usuarios/Rafael_gmail,com/historico/.json HTTP/1.1" 400 112
+[INFO   ] Base: Leaving application in progress...
+[WARNING] stderr: Traceback (most recent call last):
+[WARNING] stderr:   File "/storage/emulated/0/Python/Sistema_Embarcado/main.py", line 1067, in <module>
+[WARNING] stderr:     Inteligencia_Artificial().run()
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/app.py", line 956, in run
+[WARNING] stderr:     runTouchApp()
+[WARNING] stderr:     ~~~~~~~~~~~^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/base.py", line 574, in runTouchApp
+[WARNING] stderr:     EventLoop.mainloop()
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~~^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/base.py", line 339, in mainloop
+[WARNING] stderr:     self.idle()
+[WARNING] stderr:     ~~~~~~~~~^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/base.py", line 383, in idle
+[WARNING] stderr:     self.dispatch_input()
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~~~^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/base.py", line 334, in dispatch_input
+[WARNING] stderr:     post_dispatch_input(*pop(0))
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/base.py", line 263, in post_dispatch_input
+[WARNING] stderr:     listener.dispatch('on_motion', etype, me)
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/core/window/__init__.py", line 1709, in on_motion
+[WARNING] stderr:     self.dispatch('on_touch_down', me)
+[WARNING] stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/core/window/__init__.py", line 1726, in on_touch_down
+[WARNING] stderr:     if w.dispatch('on_touch_down', touch):
+[WARNING] stderr:        ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/uix/screenmanager.py", line 1210, in on_touch_down
+[WARNING] stderr:     return super(ScreenManager, self).on_touch_down(touch)
+[WARNING] stderr:            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/uix/widget.py", line 589, in on_touch_down
+[WARNING] stderr:     if child.dispatch('on_touch_down', touch):
+[WARNING] stderr:        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/uix/relativelayout.py", line 306, in on_touch_down
+[WARNING] stderr:     ret = super(RelativeLayout, self).on_touch_down(touch)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/uix/widget.py", line 589, in on_touch_down
+[WARNING] stderr:     if child.dispatch('on_touch_down', touch):
+[WARNING] stderr:        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/uix/widget.py", line 589, in on_touch_down
+[WARNING] stderr:     if child.dispatch('on_touch_down', touch):
+[WARNING] stderr:        ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "kivy/_event.pyx", line 731, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/uix/behaviors/button.py", line 151, in on_touch_down
+[WARNING] stderr:     self.dispatch('on_press')
+[WARNING] stderr:     ~~~~~~~~~~~~~^^^^^^^^^^^^
+[WARNING] stderr:   File "kivy/_event.pyx", line 727, in kivy._event.EventDispatcher.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1307, in kivy._event.EventObservers.dispatch
+[WARNING] stderr:   File "kivy/_event.pyx", line 1191, in kivy._event.EventObservers._dispatch
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/lang/builder.py", line 60, in custom_callback
+[WARNING] stderr:     exec(__kvlang__.co_value, idmap)
+[WARNING] stderr:     ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[WARNING] stderr:   File "/storage/emulated/0/Python/Sistema_Embarcado/main.kv", line 231, in <module>
+[WARNING] stderr:     on_press:root.send_question()
+[WARNING] stderr:     ^^^^^^^^^^^
+[WARNING] stderr:   File "/storage/emulated/0/Python/Sistema_Embarcado/main.py", line 542, in send_question
+[WARNING] stderr:     historico_conversa = firebase_app.patch(f'/Usuarios/{email_formatado}/historico',info)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/firebase/decorators.py", line 20, in wrapped
+[WARNING] stderr:     return f(*args, **kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/firebase/firebase.py", line 353, in patch
+[WARNING] stderr:     return make_patch_request(endpoint, data, params, headers,
+[WARNING] stderr:                               connection=connection)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/firebase/decorators.py", line 20, in wrapped
+[WARNING] stderr:     return f(*args, **kwargs)
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/firebase/firebase.py", line 129, in make_patch_request
+[WARNING] stderr:     response.raise_for_status()
+[WARNING] stderr:     ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+[WARNING] stderr:   File "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/requests/models.py", line 1026, in raise_for_status
+[WARNING] stderr:     raise HTTPError(http_error_msg, response=self)
+[WARNING] stderr: requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com/Usuarios/Rafael_gmail,com/historico/.json

@@ -1,0 +1,245 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/Python/Sistema_Embarcado/.kivy/logs/kivy_25-08-06_3.txt
+[INFO   ] Kivy: v2.3.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.13.2 (main, Apr 27 2025, 04:34:27) [GCC 11.4.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/bin/python3"
+[INFO   ] Logger: Purge log fired. Processing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 195 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 build 1.15@6133110'>
+[INFO   ] GL: OpenGL vendor <b'Imagination Technologies'>
+[INFO   ] GL: OpenGL renderer <b'PowerVR B-Series BXM-8-256'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <24>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Audio: Providers: audio_sdl2 (audio_android, audio_ffpyplayer ignored)
+[INFO   ] GL: NPOT texture support is available
+[DEBUG  ] text: Olá. para acessar a plataforma faça Login
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c078718a0>, <function end_of_line at 0x7c07872c00>, <function abbreviations at 0x7c07872ca0>, <function word_sub at 0x7c07872d40>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|‥|¿|…|、|\\[|。|\\]|،|\\(|;|，|—|¡|：|\\\n|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7c07872f20>, <function period_comma at 0x7c07872fc0>, <function colon at 0x7c07873060>, <function other_punctuation at 0x7c07873100>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c078718a0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c07872c00>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c07872ca0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c07872d40>
+[DEBUG  ] text_parts: ['Olá. para acessar a plataforma faça Login']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ol%5C%5Cu00e1.%20para%20acessar%20a%20plataforma%20fa%5C%5Cu00e7a%20Login%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '203'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/Olá. para acessar a plataforma faça Login.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/Olá. para acessar a plataforma faça Login.mp3
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/email/.json HTTP/1.1" 200 18
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/senha/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c078718a0>, <function end_of_line at 0x7c07872c00>, <function abbreviations at 0x7c07872ca0>, <function word_sub at 0x7c07872d40>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|‥|¿|…|、|\\[|。|\\]|،|\\(|;|，|—|¡|：|\\\n|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7c07872f20>, <function period_comma at 0x7c07872fc0>, <function colon at 0x7c07873060>, <function other_punctuation at 0x7c07873100>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c078718a0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c07872c00>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c07872ca0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c07872d40>
+[DEBUG  ] text_parts: ['Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ol%5C%5Cu00e1%2C%20Rafael%2C%20Seja%20bem%20vindo%20a%20ascen%5C%5Cu00e7%5C%5Cu00e3o.%20Como%20posso%20te%20ajudar%20hoje%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '251'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje.mp3
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c078718a0>, <function end_of_line at 0x7c07872c00>, <function abbreviations at 0x7c07872ca0>, <function word_sub at 0x7c07872d40>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|‥|¿|…|、|\\[|。|\\]|،|\\(|;|，|—|¡|：|\\\n|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7c07872f20>, <function period_comma at 0x7c07872fc0>, <function colon at 0x7c07873060>, <function other_punctuation at 0x7c07873100>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c078718a0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c07872c00>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c07872ca0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c07872d40>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/Tela de configurações.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/Tela de configurações.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/historico/.json HTTP/1.1" 200 11571
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/historico/Oque%20%C3%A9%20starbucks%20/.json HTTP/1.1" 200 353
+[DEBUG  ] text: Resposta:  Starbucks é uma empresa multinacional de café e pastelaria, fundada em 1971 nos Estados Unidos. Ela é conhecida por sua variedade de café preparado de maneira artesanal, além de outros produtos como sucos, sanduíches e sobremesas. A Starbucks é considerada uma das maiores empresas de café do mundo, com lojas em mais de 70 países.
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c078718a0>, <function end_of_line at 0x7c07872c00>, <function abbreviations at 0x7c07872ca0>, <function word_sub at 0x7c07872d40>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|‥|¿|…|、|\\[|。|\\]|،|\\(|;|，|—|¡|：|\\\n|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7c07872f20>, <function period_comma at 0x7c07872fc0>, <function colon at 0x7c07873060>, <function other_punctuation at 0x7c07873100>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c078718a0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c07872c00>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c07872ca0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c07872d40>
+[DEBUG  ] tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|‥|¿|…|、|\\[|。|\\]|،|\\(|;|，|—|¡|：|\\\n|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7c07872f20>, <function period_comma at 0x7c07872fc0>, <function colon at 0x7c07873060>, <function other_punctuation at 0x7c07873100>]>
+[DEBUG  ] text_parts: ['Resposta', 'Starbucks é uma empresa multinacional de café e pastelaria', 'fundada em 1971 nos Estados Unidos', 'Ela é conhecida por sua variedade de café preparado de maneira artesanal', 'além de outros produtos como sucos', 'sanduíches e sobremesas', 'A Starbucks é considerada uma das maiores empresas de café do mundo', 'com lojas em mais de 70 países.']
+[DEBUG  ] text_parts: 8
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Resposta%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Starbucks%20%5C%5Cu00e9%20uma%20empresa%20multinacional%20de%20caf%5C%5Cu00e9%20e%20pastelaria%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22fundada%20em%201971%20nos%20Estados%20Unidos%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ela%20%5C%5Cu00e9%20conhecida%20por%20sua%20variedade%20de%20caf%5C%5Cu00e9%20preparado%20de%20maneira%20artesanal%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-4: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22al%5C%5Cu00e9m%20de%20outros%20produtos%20como%20sucos%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-5: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22sandu%5C%5Cu00edches%20e%20sobremesas%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-6: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22A%20Starbucks%20%5C%5Cu00e9%20considerada%20uma%20das%20maiores%20empresas%20de%20caf%5C%5Cu00e9%20do%20mundo%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-7: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22com%20lojas%20em%20mais%20de%2070%20pa%5C%5Cu00edses.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '138'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '224'}
+[DEBUG  ] url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-1: 200
+[DEBUG  ] part-1 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-1 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '174'}
+[DEBUG  ] url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-2: 200
+[DEBUG  ] part-2 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-2 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-3: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '244'}
+[DEBUG  ] url-3: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-3: 200
+[DEBUG  ] part-3 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-3 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-4: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '184'}
+[DEBUG  ] url-4: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-4: 200
+[DEBUG  ] part-4 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-4 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-5: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '167'}
+[DEBUG  ] url-5: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-5: 200
+[DEBUG  ] part-5 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-5 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-6: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '239'}
+[DEBUG  ] url-6: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-6: 200
+[DEBUG  ] part-6 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-6 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-7: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '183'}
+[DEBUG  ] url-7: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-7: 200
+[DEBUG  ] part-7 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-7 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c078718a0>, <function end_of_line at 0x7c07872c00>, <function abbreviations at 0x7c07872ca0>, <function word_sub at 0x7c07872d40>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|‥|¿|…|、|\\[|。|\\]|،|\\(|;|，|—|¡|：|\\\n|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7c07872f20>, <function period_comma at 0x7c07872fc0>, <function colon at 0x7c07873060>, <function other_punctuation at 0x7c07873100>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c078718a0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c07872c00>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c07872ca0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c07872d40>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/Tela de configurações.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/Tela de configurações.mp3
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c078718a0>, <function end_of_line at 0x7c07872c00>, <function abbreviations at 0x7c07872ca0>, <function word_sub at 0x7c07872d40>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|‥|¿|…|、|\\[|。|\\]|،|\\(|;|，|—|¡|：|\\\n|\\)', re.IGNORECASE) from: [<function tone_marks at 0x7c07872f20>, <function period_comma at 0x7c07872fc0>, <function colon at 0x7c07873060>, <function other_punctuation at 0x7c07873100>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c078718a0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c07872c00>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c07872ca0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c07872d40>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443

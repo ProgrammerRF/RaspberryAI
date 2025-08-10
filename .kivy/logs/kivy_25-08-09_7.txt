@@ -1,0 +1,928 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/Python/Sistema_Embarcado/.kivy/logs/kivy_25-08-09_7.txt
+[INFO   ] Kivy: v2.3.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.13.2 (main, Apr 27 2025, 04:34:27) [GCC 11.4.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/bin/python3"
+[INFO   ] Logger: Purge log fired. Processing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 195 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 build 1.15@6133110'>
+[INFO   ] GL: OpenGL vendor <b'Imagination Technologies'>
+[INFO   ] GL: OpenGL renderer <b'PowerVR B-Series BXM-8-256'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <24>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Audio: Providers: audio_sdl2 (audio_android, audio_ffpyplayer ignored)
+[INFO   ] GL: NPOT texture support is available
+[DEBUG  ] text: Olá. para acessar a plataforma faça Login
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Olá. para acessar a plataforma faça Login']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ol%5C%5Cu00e1.%20para%20acessar%20a%20plataforma%20fa%5C%5Cu00e7a%20Login%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '203'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/email/.json HTTP/1.1" 200 18
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/senha/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ol%5C%5Cu00e1%2C%20Rafael%2C%20Seja%20bem%20vindo%20a%20ascen%5C%5Cu00e7%5C%5Cu00e3o.%20Como%20posso%20te%20ajudar%20hoje%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '251'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Você deseja mudar sua foto de perfil. Se sim, selecione uma das fotos disponíveis
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Você deseja mudar sua foto de perfil. Se sim, selecione uma das fotos disponíveis']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Voc%5C%5Cu00ea%20deseja%20mudar%20sua%20foto%20de%20perfil.%20Se%20sim%2C%20selecione%20uma%20das%20fotos%20dispon%5C%5Cu00edveis%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '259'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[WARNING] Deprecated property "<BooleanProperty name=allow_stretch>" of object "<__main__.ImageButton object at 0x7b6ddacde0>" has been set, it will be removed in a future version
+[WARNING] Deprecated property "<BooleanProperty name=keep_ratio>" of object "<__main__.ImageButton object at 0x7b6ddacde0>" was accessed, it will be removed in a future version
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "PATCH /Usuarios/Rafael_gmail,com.json HTTP/1.1" 200 28
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Foto alterada com sucesso
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Foto alterada com sucesso']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Foto%20alterada%20com%20sucesso%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '161'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Você deseja mudar sua foto de perfil. Se sim, selecione uma das fotos disponíveis
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Você deseja mudar sua foto de perfil. Se sim, selecione uma das fotos disponíveis']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Voc%5C%5Cu00ea%20deseja%20mudar%20sua%20foto%20de%20perfil.%20Se%20sim%2C%20selecione%20uma%20das%20fotos%20dispon%5C%5Cu00edveis%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '259'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "PATCH /Usuarios/Rafael_gmail,com.json HTTP/1.1" 200 28
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Foto alterada com sucesso
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Foto alterada com sucesso']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Foto%20alterada%20com%20sucesso%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '161'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Você deseja mudar sua foto de perfil. Se sim, selecione uma das fotos disponíveis
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Você deseja mudar sua foto de perfil. Se sim, selecione uma das fotos disponíveis']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Voc%5C%5Cu00ea%20deseja%20mudar%20sua%20foto%20de%20perfil.%20Se%20sim%2C%20selecione%20uma%20das%20fotos%20dispon%5C%5Cu00edveis%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '259'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "PATCH /Usuarios/Rafael_gmail,com.json HTTP/1.1" 200 28
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Foto alterada com sucesso
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Foto alterada com sucesso']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Foto%20alterada%20com%20sucesso%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '161'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Você realmente deseja sair, 
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Você realmente deseja sair,']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Voc%5C%5Cu00ea%20realmente%20deseja%20sair%2C%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Como posso ajudar
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Como posso ajudar']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Como%20posso%20ajudar%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '151'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/Como posso ajudar.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/Como posso ajudar.mp3
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Histórico de conversas. Nessa tela você pode selecionar uma das conversas anteriores para ser carregada na HomePage ou deletar uma conversa anterior preesionando o botão vermelho
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] text_parts: ['Histórico de conversas', 'Nessa tela você pode selecionar uma das conversas anteriores para ser carregada na HomePage ou', 'deletar uma conversa anterior preesionando o botão vermelho']
+[DEBUG  ] text_parts: 3
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hist%5C%5Cu00f3rico%20de%20conversas%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Nessa%20tela%20voc%5C%5Cu00ea%20pode%20selecionar%20uma%20das%20conversas%20anteriores%20para%20ser%20carregada%20na%20HomePage%20ou%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22deletar%20uma%20conversa%20anterior%20preesionando%20o%20bot%5C%5Cu00e3o%20vermelho%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '166'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '262'}
+[DEBUG  ] url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-1: 200
+[DEBUG  ] part-1 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-1 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '213'}
+[DEBUG  ] url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-2: 200
+[DEBUG  ] part-2 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-2 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/historico/.json HTTP/1.1" 200 20319
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/historico/Quem%20foi%20kevin%20mitnik%20/.json HTTP/1.1" 200 1469
+[DEBUG  ] text: Resposta: Kevin Mitnick foi um famoso hacker americano que viveu de 1963 a 2023. Ele é conhecido por suas habilidades em hacking e por ter sido um dos hackers mais procurados dos Estados Unidos. Aqui estão alguns pontos importantes sobre Kevin Mitnick:
+
+1. Carreira de Hacker: Mitnick começou sua carreira de hacking em 1976, quando tinha apenas 15 anos. Ele se especializou em hacking de sistemas de computador e redes.
+
+2. Condenação: Em 1995, foi condenado a dois anos de prisão por ter hackeado sistemas de empresas como Nokia, Motorola e Cisco. Foi considerado o "mais perigoso hacker do mundo" na época.
+
+3. Fuga: Após sua prisão, Mitnick fugiu da prisão em 1995 e permaneceu foragido por 28 meses. Ele foi recapturado em 1996.
+
+4. Carreira Legítima: Após sua libertação, Mitnick se tornou um consultor de segurança cibernética e autor de livros sobre segurança de redes.
+
+5. Livros: Escreveu vários livros sobre hacking ético e segurança de redes, incluindo "Getting Exploited: The Art of Social Engineering".
+
+6. Reconhecimento: Embora tenha sido um hacker crítico, Mitnick ganhou reconhecimento por suas habilidades e se tornou um palestrante popular sobre segurança cibernética.
+
+7. Morte: Faleceu em 11 de janeiro de 2023, aos 60 anos, devido a complicações de saúde.
+
+Kevin Mitnick é lembrado tanto por suas habilidades de hacking quanto por sua transformação em um especialista em segurança cibernética.
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] text_parts: ['Resposta', 'Kevin Mitnick foi um famoso hacker americano que viveu de 1963 a 2023', 'Ele é conhecido por suas habilidades em hacking e por ter sido um dos hackers mais procurados dos', 'Estados Unidos', 'Aqui estão alguns pontos importantes sobre Kevin Mitnick', '1', 'Carreira de Hacker', 'Mitnick começou sua carreira de hacking em 1976', 'quando tinha apenas 15 anos', 'Ele se especializou em hacking de sistemas de computador e redes.', '2', 'Condenação', 'Em 1995', 'foi condenado a dois anos de prisão por ter hackeado sistemas de empresas como Nokia', 'Motorola e Cisco', 'Foi considerado o "mais perigoso hacker do mundo" na época.', '3', 'Fuga', 'Após sua prisão', 'Mitnick fugiu da prisão em 1995 e permaneceu foragido por 28 meses', 'Ele foi recapturado em 1996.', '4', 'Carreira Legítima', 'Após sua libertação', 'Mitnick se tornou um consultor de segurança cibernética e autor de livros sobre segurança de redes.', '5', 'Livros', 'Escreveu vários livros sobre hacking ético e segurança de redes', 'incluindo "Getting Exploited', 'The Art of Social Engineering".', '6', 'Reconhecimento', 'Embora tenha sido um hacker crítico', 'Mitnick ganhou reconhecimento por suas habilidades e se tornou um palestrante popular sobre', 'segurança cibernética.', '7', 'Morte', 'Faleceu em 11 de janeiro de 2023', 'aos 60 anos', 'devido a complicações de saúde.', 'Kevin Mitnick é lembrado tanto por suas habilidades de hacking quanto por sua transformação em um', 'especialista em segurança cibernética.']
+[DEBUG  ] text_parts: 42
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Resposta%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Kevin%20Mitnick%20foi%20um%20famoso%20hacker%20americano%20que%20viveu%20de%201963%20a%202023%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ele%20%5C%5Cu00e9%20conhecido%20por%20suas%20habilidades%20em%20hacking%20e%20por%20ter%20sido%20um%20dos%20hackers%20mais%20procurados%20dos%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Estados%20Unidos%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-4: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Aqui%20est%5C%5Cu00e3o%20alguns%20pontos%20importantes%20sobre%20Kevin%20Mitnick%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-5: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%221%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-6: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Carreira%20de%20Hacker%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-7: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Mitnick%20come%5C%5Cu00e7ou%20sua%20carreira%20de%20hacking%20em%201976%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-8: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22quando%20tinha%20apenas%2015%20anos%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-9: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ele%20se%20especializou%20em%20hacking%20de%20sistemas%20de%20computador%20e%20redes.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-10: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%222%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-11: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Condena%5C%5Cu00e7%5C%5Cu00e3o%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-12: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Em%201995%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-13: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22foi%20condenado%20a%20dois%20anos%20de%20pris%5C%5Cu00e3o%20por%20ter%20hackeado%20sistemas%20de%20empresas%20como%20Nokia%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-14: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Motorola%20e%20Cisco%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-15: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Foi%20considerado%20o%20%5C%5C%5C%22mais%20perigoso%20hacker%20do%20mundo%5C%5C%5C%22%20na%20%5C%5Cu00e9poca.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-16: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%223%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-17: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Fuga%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-18: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ap%5C%5Cu00f3s%20sua%20pris%5C%5Cu00e3o%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-19: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Mitnick%20fugiu%20da%20pris%5C%5Cu00e3o%20em%201995%20e%20permaneceu%20foragido%20por%2028%20meses%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-20: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ele%20foi%20recapturado%20em%201996.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-21: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%224%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-22: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Carreira%20Leg%5C%5Cu00edtima%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-23: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ap%5C%5Cu00f3s%20sua%20liberta%5C%5Cu00e7%5C%5Cu00e3o%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-24: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Mitnick%20se%20tornou%20um%20consultor%20de%20seguran%5C%5Cu00e7a%20cibern%5C%5Cu00e9tica%20e%20autor%20de%20livros%20sobre%20seguran%5C%5Cu00e7a%20de%20redes.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-25: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%225%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-26: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Livros%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-27: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Escreveu%20v%5C%5Cu00e1rios%20livros%20sobre%20hacking%20%5C%5Cu00e9tico%20e%20seguran%5C%5Cu00e7a%20de%20redes%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-28: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22incluindo%20%5C%5C%5C%22Getting%20Exploited%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-29: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22The%20Art%20of%20Social%20Engineering%5C%5C%5C%22.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-30: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%226%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-31: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Reconhecimento%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-32: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Embora%20tenha%20sido%20um%20hacker%20cr%5C%5Cu00edtico%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-33: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Mitnick%20ganhou%20reconhecimento%20por%20suas%20habilidades%20e%20se%20tornou%20um%20palestrante%20popular%20sobre%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-34: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22seguran%5C%5Cu00e7a%20cibern%5C%5Cu00e9tica.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-35: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%227%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-36: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Morte%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-37: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Faleceu%20em%2011%20de%20janeiro%20de%202023%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-38: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22aos%2060%20anos%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-39: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22devido%20a%20complica%5C%5Cu00e7%5C%5Cu00f5es%20de%20sa%5C%5Cu00fade.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-40: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Kevin%20Mitnick%20%5C%5Cu00e9%20lembrado%20tanto%20por%20suas%20habilidades%20de%20hacking%20quanto%20por%20sua%20transforma%5C%5Cu00e7%5C%5Cu00e3o%20em%20um%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-41: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22especialista%20em%20seguran%5C%5Cu00e7a%20cibern%5C%5Cu00e9tica.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '138'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '223'}
+[DEBUG  ] url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-1: 200
+[DEBUG  ] part-1 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-1 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '271'}
+[DEBUG  ] url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-2: 200
+[DEBUG  ] part-2 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-2 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-3: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '146'}
+[DEBUG  ] url-3: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-3: 200
+[DEBUG  ] part-3 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-3 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-4: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '210'}
+[DEBUG  ] url-4: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-4: 200
+[DEBUG  ] part-4 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-4 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-5: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '131'}
+[DEBUG  ] url-5: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-5: 200
+[DEBUG  ] part-5 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-5 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-6: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '152'}
+[DEBUG  ] url-6: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-6: 200
+[DEBUG  ] part-6 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-6 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-7: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '201'}
+[DEBUG  ] url-7: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-7: 200
+[DEBUG  ] part-7 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-7 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-8: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '165'}
+[DEBUG  ] url-8: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-8: 200
+[DEBUG  ] part-8 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-8 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-9: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '215'}
+[DEBUG  ] url-9: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-9: 200
+[DEBUG  ] part-9 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-9 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-10: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '131'}
+[DEBUG  ] url-10: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-10: 200
+[DEBUG  ] part-10 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-10 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-11: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '160'}
+[DEBUG  ] url-11: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-11: 200
+[DEBUG  ] part-11 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-11 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-12: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '139'}
+[DEBUG  ] url-12: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-12: 200
+[DEBUG  ] part-12 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-12 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-13: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '252'}
+[DEBUG  ] url-13: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-13: 200
+[DEBUG  ] part-13 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-13 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-14: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '150'}
+[DEBUG  ] url-14: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-14: 200
+[DEBUG  ] part-14 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-14 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-15: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '239'}
+[DEBUG  ] url-15: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-15: 200
+[DEBUG  ] part-15 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-15 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-16: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '131'}
+[DEBUG  ] url-16: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-16: 200
+[DEBUG  ] part-16 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-16 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-17: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '134'}
+[DEBUG  ] url-17: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-17: 200
+[DEBUG  ] part-17 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-17 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-18: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '169'}
+[DEBUG  ] url-18: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-18: 200
+[DEBUG  ] part-18 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-18 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-19: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '228'}
+[DEBUG  ] url-19: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-19: 200
+[DEBUG  ] part-19 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-19 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-20: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '166'}
+[DEBUG  ] url-20: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-20: 200
+[DEBUG  ] part-20 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-20 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-21: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '131'}
+[DEBUG  ] url-21: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-21: 200
+[DEBUG  ] part-21 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-21 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-22: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '159'}
+[DEBUG  ] url-22: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-22: 200
+[DEBUG  ] part-22 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-22 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-23: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '183'}
+[DEBUG  ] url-23: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-23: 200
+[DEBUG  ] part-23 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-23 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-24: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '289'}
+[DEBUG  ] url-24: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-24: 200
+[DEBUG  ] part-24 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-24 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-25: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '131'}
+[DEBUG  ] url-25: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-25: 200
+[DEBUG  ] part-25 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-25 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-26: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '136'}
+[DEBUG  ] url-26: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-26: 200
+[DEBUG  ] part-26 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-26 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-27: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '241'}
+[DEBUG  ] url-27: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-27: 200
+[DEBUG  ] part-27 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-27 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-28: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '173'}
+[DEBUG  ] url-28: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-28: 200
+[DEBUG  ] part-28 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-28 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-29: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '180'}
+[DEBUG  ] url-29: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-29: 200
+[DEBUG  ] part-29 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-29 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-30: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '131'}
+[DEBUG  ] url-30: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-30: 200
+[DEBUG  ] part-30 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-30 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-31: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '144'}
+[DEBUG  ] url-31: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-31: 200
+[DEBUG  ] part-31 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-31 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-32: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '185'}
+[DEBUG  ] url-32: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-32: 200
+[DEBUG  ] part-32 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-32 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-33: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '245'}
+[DEBUG  ] url-33: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-33: 200
+[DEBUG  ] part-33 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-33 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-34: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '174'}
+[DEBUG  ] url-34: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-34: 200
+[DEBUG  ] part-34 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-34 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-35: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '131'}
+[DEBUG  ] url-35: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-35: 200
+[DEBUG  ] part-35 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-35 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-36: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '135'}
+[DEBUG  ] url-36: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-36: 200
+[DEBUG  ] part-36 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-36 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-37: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '174'}
+[DEBUG  ] url-37: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-37: 200
+[DEBUG  ] part-37 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-37 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-38: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '145'}
+[DEBUG  ] url-38: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-38: 200
+[DEBUG  ] part-38 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-38 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-39: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '199'}
+[DEBUG  ] url-39: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-39: 200
+[DEBUG  ] part-39 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-39 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-40: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '287'}
+[DEBUG  ] url-40: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-40: 200
+[DEBUG  ] part-40 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-40 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-41: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '194'}
+[DEBUG  ] url-41: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-41: 200
+[DEBUG  ] part-41 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-41 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Resposta: Kevin Mitnick foi um famoso hacker americano que viveu de 1963 a 2023. Ele é conhecido por suas habilidades em hacking e por ter sido um dos hackers mais procurados dos Estados Unidos. Aqui estão alguns pontos importantes sobre Kevin Mitnick:
+
+1. Carreira de Hacker: Mitnick começou sua carreira de hacking em 1976, quando tinha apenas 15 anos. Ele se especializou em hacking de sistemas de computador e redes.
+
+2. Condenação: Em 1995, foi condenado a dois anos de prisão por ter hackeado sistemas de empresas como Nokia, Motorola e Cisco. Foi considerado o "mais perigoso hacker do mundo" na época.
+
+3. Fuga: Após sua prisão, Mitnick fugiu da prisão em 1995 e permaneceu foragido por 28 meses. Ele foi recapturado em 1996.
+
+4. Carreira Legítima: Após sua libertação, Mitnick se tornou um consultor de segurança cibernética e autor de livros sobre segurança de redes.
+
+5. Livros: Escreveu vários livros sobre hacking ético e segurança de redes, incluindo "Getting Exploited: The Art of Social Engineering".
+
+6. Reconhecimento: Embora tenha sido um hacker crítico, Mitnick ganhou reconhecimento por suas habilidades e se tornou um palestrante popular sobre segurança cibernética.
+
+7. Morte: Faleceu em 11 de janeiro de 2023, aos 60 anos, devido a complicações de saúde.
+
+Kevin Mitnick é lembrado tanto por suas habilidades de hacking quanto por sua transformação em um especialista em segurança cibernética.
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7b72ea9760>, <function end_of_line at 0x7b72eaaac0>, <function abbreviations at 0x7b72eaab60>, <function word_sub at 0x7b72eaac00>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7b72ea9760>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7b72eaaac0>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7b72eaab60>
+[DEBUG  ] pre-processing: <function word_sub at 0x7b72eaac00>
+[DEBUG  ] tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|\\\n|\\(|،|、|—|\\]|¡|\\[|‥|：|，|…|;|。|¿', re.IGNORECASE) from: [<function tone_marks at 0x7b72eaade0>, <function period_comma at 0x7b72eaae80>, <function colon at 0x7b72eaaf20>, <function other_punctuation at 0x7b72eaafc0>]>
+[DEBUG  ] text_parts: ['Resposta', 'Kevin Mitnick foi um famoso hacker americano que viveu de 1963 a 2023', 'Ele é conhecido por suas habilidades em hacking e por ter sido um dos hackers mais procurados dos', 'Estados Unidos', 'Aqui estão alguns pontos importantes sobre Kevin Mitnick', '1', 'Carreira de Hacker', 'Mitnick começou sua carreira de hacking em 1976', 'quando tinha apenas 15 anos', 'Ele se especializou em hacking de sistemas de computador e redes.', '2', 'Condenação', 'Em 1995', 'foi condenado a dois anos de prisão por ter hackeado sistemas de empresas como Nokia', 'Motorola e Cisco', 'Foi considerado o "mais perigoso hacker do mundo" na época.', '3', 'Fuga', 'Após sua prisão', 'Mitnick fugiu da prisão em 1995 e permaneceu foragido por 28 meses', 'Ele foi recapturado em 1996.', '4', 'Carreira Legítima', 'Após sua libertação', 'Mitnick se tornou um consultor de segurança cibernética e autor de livros sobre segurança de redes.', '5', 'Livros', 'Escreveu vários livros sobre hacking ético e segurança de redes', 'incluindo "Getting Exploited', 'The Art of Social Engineering".', '6', 'Reconhecimento', 'Embora tenha sido um hacker crítico', 'Mitnick ganhou reconhecimento por suas habilidades e se tornou um palestrante popular sobre', 'segurança cibernética.', '7', 'Morte', 'Faleceu em 11 de janeiro de 2023', 'aos 60 anos', 'devido a complicações de saúde.', 'Kevin Mitnick é lembrado tanto por suas habilidades de hacking quanto por sua transformação em um', 'especialista em segurança cibernética.']
+[DEBUG  ] text_parts: 42
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Resposta%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Kevin%20Mitnick%20foi%20um%20famoso%20hacker%20americano%20que%20viveu%20de%201963%20a%202023%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ele%20%5C%5Cu00e9%20conhecido%20por%20suas%20habilidades%20em%20hacking%20e%20por%20ter%20sido%20um%20dos%20hackers%20mais%20procurados%20dos%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Estados%20Unidos%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-4: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Aqui%20est%5C%5Cu00e3o%20alguns%20pontos%20importantes%20sobre%20Kevin%20Mitnick%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-5: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%221%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-6: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Carreira%20de%20Hacker%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-7: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Mitnick%20come%5C%5Cu00e7ou%20sua%20carreira%20de%20hacking%20em%201976%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-8: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22quando%20tinha%20apenas%2015%20anos%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-9: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ele%20se%20especializou%20em%20hacking%20de%20sistemas%20de%20computador%20e%20redes.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-10: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%222%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-11: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Condena%5C%5Cu00e7%5C%5Cu00e3o%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-12: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Em%201995%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-13: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22foi%20condenado%20a%20dois%20anos%20de%20pris%5C%5Cu00e3o%20por%20ter%20hackeado%20sistemas%20de%20empresas%20como%20Nokia%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-14: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Motorola%20e%20Cisco%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-15: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Foi%20considerado%20o%20%5C%5C%5C%22mais%20perigoso%20hacker%20do%20mundo%5C%5C%5C%22%20na%20%5C%5Cu00e9poca.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-16: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%223%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-17: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Fuga%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-18: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ap%5C%5Cu00f3s%20sua%20pris%5C%5Cu00e3o%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-19: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Mitnick%20fugiu%20da%20pris%5C%5Cu00e3o%20em%201995%20e%20permaneceu%20foragido%20por%2028%20meses%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-20: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ele%20foi%20recapturado%20em%201996.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-21: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%224%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-22: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Carreira%20Leg%5C%5Cu00edtima%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-23: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ap%5C%5Cu00f3s%20sua%20liberta%5C%5Cu00e7%5C%5Cu00e3o%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-24: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Mitnick%20se%20tornou%20um%20consultor%20de%20seguran%5C%5Cu00e7a%20cibern%5C%5Cu00e9tica%20e%20autor%20de%20livros%20sobre%20seguran%5C%5Cu00e7a%20de%20redes.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-25: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%225%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-26: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Livros%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-27: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Escreveu%20v%5C%5Cu00e1rios%20livros%20sobre%20hacking%20%5C%5Cu00e9tico%20e%20seguran%5C%5Cu00e7a%20de%20redes%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-28: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22incluindo%20%5C%5C%5C%22Getting%20Exploited%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-29: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22The%20Art%20of%20Social%20Engineering%5C%5C%5C%22.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-30: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%226%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-31: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Reconhecimento%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-32: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Embora%20tenha%20sido%20um%20hacker%20cr%5C%5Cu00edtico%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-33: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Mitnick%20ganhou%20reconhecimento%20por%20suas%20habilidades%20e%20se%20tornou%20um%20palestrante%20popular%20sobre%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-34: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22seguran%5C%5Cu00e7a%20cibern%5C%5Cu00e9tica.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-35: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%227%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-36: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Morte%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-37: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Faleceu%20em%2011%20de%20janeiro%20de%202023%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-38: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22aos%2060%20anos%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-39: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22devido%20a%20complica%5C%5Cu00e7%5C%5Cu00f5es%20de%20sa%5C%5Cu00fade.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-40: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Kevin%20Mitnick%20%5C%5Cu00e9%20lembrado%20tanto%20por%20suas%20habilidades%20de%20hacking%20quanto%20por%20sua%20transforma%5C%5Cu00e7%5C%5Cu00e3o%20em%20um%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-41: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22especialista%20em%20seguran%5C%5Cu00e7a%20cibern%5C%5Cu00e9tica.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443

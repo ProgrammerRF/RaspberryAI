@@ -1,0 +1,1027 @@
+[INFO   ] Logger: Record log in /storage/emulated/0/Python/Sistema_Embarcado/.kivy/logs/kivy_25-08-09_12.txt
+[INFO   ] Kivy: v2.3.1
+[INFO   ] Kivy: Installed at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/lib/python3.13/site-packages/kivy/__init__.py"
+[INFO   ] Python: v3.13.2 (main, Apr 27 2025, 04:34:27) [GCC 11.4.0]
+[INFO   ] Python: Interpreter at "/data/user/0/ru.iiec.pydroid3/files/aarch64-linux-android/bin/python3"
+[INFO   ] Logger: Purge log fired. Processing...
+[INFO   ] Logger: Purge finished!
+[INFO   ] Factory: 195 symbols loaded
+[INFO   ] Image: Providers: img_tex, img_dds, img_sdl2 (img_pil, img_ffpyplayer ignored)
+[INFO   ] Text: Provider: sdl2
+[INFO   ] Window: Provider: sdl2
+[INFO   ] GL: Using the "OpenGL ES 2" graphics system
+[INFO   ] GL: Backend used <sdl2>
+[INFO   ] GL: OpenGL version <b'OpenGL ES 3.2 build 1.15@6133110'>
+[INFO   ] GL: OpenGL vendor <b'Imagination Technologies'>
+[INFO   ] GL: OpenGL renderer <b'PowerVR B-Series BXM-8-256'>
+[INFO   ] GL: OpenGL parsed version: 3, 2
+[INFO   ] GL: Texture max size <16384>
+[INFO   ] GL: Texture max units <24>
+[INFO   ] Window: auto add sdl2 input provider
+[INFO   ] Window: virtual keyboard not allowed, single mode, not docked
+[INFO   ] Audio: Providers: audio_sdl2 (audio_android, audio_ffpyplayer ignored)
+[INFO   ] GL: NPOT texture support is available
+[DEBUG  ] text: Olá. para acessar a plataforma faça Login
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Olá. para acessar a plataforma faça Login']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ol%5C%5Cu00e1.%20para%20acessar%20a%20plataforma%20fa%5C%5Cu00e7a%20Login%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '203'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[WARNING] Base: Unknown <android> provider
+[INFO   ] Base: Start application main loop
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/email/.json HTTP/1.1" 200 18
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/senha/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Olá, Rafael, Seja bem vindo a ascenção. Como posso te ajudar hoje']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ol%5C%5Cu00e1%2C%20Rafael%2C%20Seja%20bem%20vindo%20a%20ascen%5C%5Cu00e7%5C%5Cu00e3o.%20Como%20posso%20te%20ajudar%20hoje%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '251'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Você deseja mudar sua foto de perfil. Se sim, selecione uma das fotos disponíveis
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Você deseja mudar sua foto de perfil. Se sim, selecione uma das fotos disponíveis']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Voc%5C%5Cu00ea%20deseja%20mudar%20sua%20foto%20de%20perfil.%20Se%20sim%2C%20selecione%20uma%20das%20fotos%20dispon%5C%5Cu00edveis%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '259'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[WARNING] Deprecated property "<BooleanProperty name=allow_stretch>" of object "<__main__.ImageButton object at 0x7b790c10f0>" has been set, it will be removed in a future version
+[WARNING] Deprecated property "<BooleanProperty name=keep_ratio>" of object "<__main__.ImageButton object at 0x7b790c10f0>" was accessed, it will be removed in a future version
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "PATCH /Usuarios/Rafael_gmail,com.json HTTP/1.1" 200 28
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Foto alterada com sucesso
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Foto alterada com sucesso']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Foto%20alterada%20com%20sucesso%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '161'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Você deseja alterar seu nome. Se sim, digite seu novo nome e pressione validar
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Você deseja alterar seu nome. Se sim, digite seu novo nome e pressione validar']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Voc%5C%5Cu00ea%20deseja%20alterar%20seu%20nome.%20Se%20sim%2C%20digite%20seu%20novo%20nome%20e%20pressione%20validar%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '246'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "PATCH /Usuarios/Rafael_gmail,com.json HTTP/1.1" 200 15
+[DEBUG  ] text: Nome alterado com sucesso
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Nome alterado com sucesso']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Nome%20alterado%20com%20sucesso%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '161'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 6
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Você deseja alterar seu nome. Se sim, digite seu novo nome e pressione validar
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Você deseja alterar seu nome. Se sim, digite seu novo nome e pressione validar']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Voc%5C%5Cu00ea%20deseja%20alterar%20seu%20nome.%20Se%20sim%2C%20digite%20seu%20novo%20nome%20e%20pressione%20validar%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '246'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "PATCH /Usuarios/Rafael_gmail,com.json HTTP/1.1" 200 17
+[DEBUG  ] text: Nome alterado com sucesso
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Nome alterado com sucesso']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Nome%20alterado%20com%20sucesso%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '161'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Se você deseja alterar sua senha preencha os campos do formulário
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Se você deseja alterar sua senha preencha os campos do formulário']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Se%20voc%5C%5Cu00ea%20deseja%20alterar%20sua%20senha%20preencha%20os%20campos%20do%20formul%5C%5Cu00e1rio%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '235'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/senha/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "PATCH /Usuarios/Rafael_gmail,com.json HTTP/1.1" 200 18
+[DEBUG  ] text: Senha alterada com sucesso
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Senha alterada com sucesso']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Senha%20alterada%20com%20sucesso%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '162'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Se você deseja alterar o endereço de E-mail preencha os campos do formulário
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Se você deseja alterar o endereço de E-mail preencha os campos do formulário']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Se%20voc%5C%5Cu00ea%20deseja%20alterar%20o%20endere%5C%5Cu00e7o%20de%20E-mail%20preencha%20os%20campos%20do%20formul%5C%5Cu00e1rio%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '260'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael/email/.json HTTP/1.1" 200 4
+[DEBUG  ] text: Seu E-mail deve conter @
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Seu E-mail deve conter @']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Seu%20E-mail%20deve%20conter%20%40%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '164'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmaik/email/.json HTTP/1.1" 200 4
+[DEBUG  ] text: Seu E-mail deve conter .com
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Seu E-mail deve conter .com']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Seu%20E-mail%20deve%20conter%20.com%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '165'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/email/.json HTTP/1.1" 200 18
+[DEBUG  ] text: Seu novo E-mail deve ser diferente do antigo
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Seu novo E-mail deve ser diferente do antigo']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Seu%20novo%20E-mail%20deve%20ser%20diferente%20do%20antigo%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '188'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafa_gmail,com/email/.json HTTP/1.1" 200 4
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/email/.json HTTP/1.1" 200 18
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/historico/.json HTTP/1.1" 200 17357
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/senha/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "DELETE /Usuarios/Rafael_gmail,com.json HTTP/1.1" 200 4
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "PUT /Usuarios/Rafa_gmail,com.json HTTP/1.1" 200 17456
+[DEBUG  ] text: E-mail alterado com sucesso
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['E-mail alterado com sucesso']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22E-mail%20alterado%20com%20sucesso%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '163'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafa_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafa_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Se você deseja alterar o endereço de E-mail preencha os campos do formulário
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Se você deseja alterar o endereço de E-mail preencha os campos do formulário']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Se%20voc%5C%5Cu00ea%20deseja%20alterar%20o%20endere%5C%5Cu00e7o%20de%20E-mail%20preencha%20os%20campos%20do%20formul%5C%5Cu00e1rio%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '260'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/email/.json HTTP/1.1" 200 4
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafa_gmail,com/email/.json HTTP/1.1" 200 16
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafa_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafa_gmail,com/historico/.json HTTP/1.1" 200 17357
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafa_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafa_gmail,com/senha/.json HTTP/1.1" 200 8
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "DELETE /Usuarios/Rafa_gmail,com.json HTTP/1.1" 200 4
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "PUT /Usuarios/Rafael_gmail,com.json HTTP/1.1" 200 17458
+[DEBUG  ] text: E-mail alterado com sucesso
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['E-mail alterado com sucesso']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22E-mail%20alterado%20com%20sucesso%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '163'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Histórico de conversas. Nessa tela você pode selecionar uma das conversas anteriores para ser carregada na HomePage ou deletar uma conversa anterior preesionando o botão vermelho
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] text_parts: ['Histórico de conversas', 'Nessa tela você pode selecionar uma das conversas anteriores para ser carregada na HomePage ou', 'deletar uma conversa anterior preesionando o botão vermelho']
+[DEBUG  ] text_parts: 3
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hist%5C%5Cu00f3rico%20de%20conversas%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Nessa%20tela%20voc%5C%5Cu00ea%20pode%20selecionar%20uma%20das%20conversas%20anteriores%20para%20ser%20carregada%20na%20HomePage%20ou%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22deletar%20uma%20conversa%20anterior%20preesionando%20o%20bot%5C%5Cu00e3o%20vermelho%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '166'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '262'}
+[DEBUG  ] url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-1: 200
+[DEBUG  ] part-1 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-1 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '213'}
+[DEBUG  ] url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-2: 200
+[DEBUG  ] part-2 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-2 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/historico/.json HTTP/1.1" 200 17357
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/historico/Quem%20foi%20o%20criador%20da%20linguagem%20de%20maquina%20/.json HTTP/1.1" 200 508
+[DEBUG  ] text: Resposta:  A linguagem de máquina não foi criada por um único indivíduo. Ela é um conceito básico na computação e evoluiu de forma independente em diferentes lugares e épocas. No entanto, o primeiro modelo formal de uma linguagem de máquina de Turing foi apresentado pelo matemático britânico Alan Turing em 1936. Sua obra "On Computable Numbers, with an Application to the Entscheidungsproblem" é considerada fundamental para a teoria da computação e a criação de computadores modernos.
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] text_parts: ['Resposta', 'A linguagem de máquina não foi criada por um único indivíduo', 'Ela é um conceito básico na computação e evoluiu de forma independente em diferentes lugares e', 'épocas', 'No entanto', 'o primeiro modelo formal de uma linguagem de máquina de Turing foi apresentado pelo matemático', 'britânico Alan Turing em 1936', 'Sua obra "On Computable Numbers', 'with an Application to the Entscheidungsproblem" é considerada fundamental para a teoria da', 'computação e a criação de computadores modernos.']
+[DEBUG  ] text_parts: 10
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Resposta%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22A%20linguagem%20de%20m%5C%5Cu00e1quina%20n%5C%5Cu00e3o%20foi%20criada%20por%20um%20%5C%5Cu00fanico%20indiv%5C%5Cu00edduo%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Ela%20%5C%5Cu00e9%20um%20conceito%20b%5C%5Cu00e1sico%20na%20computa%5C%5Cu00e7%5C%5Cu00e3o%20e%20evoluiu%20de%20forma%20independente%20em%20diferentes%20lugares%20e%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-3: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22%5C%5Cu00e9pocas%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-4: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22No%20entanto%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-5: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22o%20primeiro%20modelo%20formal%20de%20uma%20linguagem%20de%20m%5C%5Cu00e1quina%20de%20Turing%20foi%20apresentado%20pelo%20matem%5C%5Cu00e1tico%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-6: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22brit%5C%5Cu00e2nico%20Alan%20Turing%20em%201936%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-7: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Sua%20obra%20%5C%5C%5C%22On%20Computable%20Numbers%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-8: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22with%20an%20Application%20to%20the%20Entscheidungsproblem%5C%5C%5C%22%20%5C%5Cu00e9%20considerada%20fundamental%20para%20a%20teoria%20da%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-9: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22computa%5C%5Cu00e7%5C%5Cu00e3o%20e%20a%20cria%5C%5Cu00e7%5C%5Cu00e3o%20de%20computadores%20modernos.%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '138'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '250'}
+[DEBUG  ] url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-1: 200
+[DEBUG  ] part-1 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-1 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '294'}
+[DEBUG  ] url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-2: 200
+[DEBUG  ] part-2 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-2 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-3: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '146'}
+[DEBUG  ] url-3: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-3: 200
+[DEBUG  ] part-3 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-3 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-4: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '142'}
+[DEBUG  ] url-4: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-4: 200
+[DEBUG  ] part-4 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-4 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-5: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '272'}
+[DEBUG  ] url-5: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-5: 200
+[DEBUG  ] part-5 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-5 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-6: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '177'}
+[DEBUG  ] url-6: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-6: 200
+[DEBUG  ] part-6 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-6 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-7: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '180'}
+[DEBUG  ] url-7: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-7: 200
+[DEBUG  ] part-7 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-7 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-8: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '266'}
+[DEBUG  ] url-8: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-8: 200
+[DEBUG  ] part-8 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-8 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-9: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '230'}
+[DEBUG  ] url-9: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-9: 200
+[DEBUG  ] part-9 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-9 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Tela de configurações
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Tela de configurações']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Tela%20de%20configura%5C%5Cu00e7%5C%5Cu00f5es%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Histórico de conversas. Nessa tela você pode selecionar uma das conversas anteriores para ser carregada na HomePage ou deletar uma conversa anterior preesionando o botão vermelho
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] tokenizing: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] text_parts: ['Histórico de conversas', 'Nessa tela você pode selecionar uma das conversas anteriores para ser carregada na HomePage ou', 'deletar uma conversa anterior preesionando o botão vermelho']
+[DEBUG  ] text_parts: 3
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hist%5C%5Cu00f3rico%20de%20conversas%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-1: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Nessa%20tela%20voc%5C%5Cu00ea%20pode%20selecionar%20uma%20das%20conversas%20anteriores%20para%20ser%20carregada%20na%20HomePage%20ou%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] data-2: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22deletar%20uma%20conversa%20anterior%20preesionando%20o%20bot%5C%5Cu00e3o%20vermelho%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '166'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-1: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '262'}
+[DEBUG  ] url-1: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-1: 200
+[DEBUG  ] part-1 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-1 created
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-2: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '213'}
+[DEBUG  ] url-2: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-2: 200
+[DEBUG  ] part-2 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-2 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/historico/.json HTTP/1.1" 200 17357
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "DELETE /Usuarios/Rafael_gmail,com/historico/Quem%20foi%20johnny%20river%20.json HTTP/1.1" 200 4
+[DEBUG  ] text: Conversa excluida com sucesso
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Conversa excluida com sucesso']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Conversa%20excluida%20com%20sucesso%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '165'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/foto_perfil/.json HTTP/1.1" 200 12
+[DEBUG  ] Starting new HTTPS connection (1): inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443
+[DEBUG  ] https://inteligencia-artificial-37d91-default-rtdb.firebaseio.com:443 "GET /Usuarios/Rafael_gmail,com/nome/.json HTTP/1.1" 200 8
+[DEBUG  ] text: Você realmente deseja sair, 
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Você realmente deseja sair,']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Voc%5C%5Cu00ea%20realmente%20deseja%20sair%2C%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '175'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/resposta_ia.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/resposta_ia.mp3
+[DEBUG  ] text: Como posso ajudar
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Como posso ajudar']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Como%20posso%20ajudar%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
+[DEBUG  ] https://translate.google.com:443 "POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+[DEBUG  ] headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '151'}
+[DEBUG  ] url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+[DEBUG  ] status-0: 200
+[DEBUG  ] part-0 written to <_io.BufferedWriter name='frases/Como posso ajudar.mp3'>
+[DEBUG  ] part-0 created
+[DEBUG  ] Saved to frases/Como posso ajudar.mp3
+[DEBUG  ] text: Você realmente deseja sair, 
+[DEBUG  ] tld: com
+[DEBUG  ] lang: pt-br
+[DEBUG  ] slow: False
+[DEBUG  ] lang_check: True
+[DEBUG  ] pre_processor_funcs: [<function tone_marks at 0x7c001096c0>, <function end_of_line at 0x7c0010aa20>, <function abbreviations at 0x7c0010aac0>, <function word_sub at 0x7c0010ab60>]
+[DEBUG  ] tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|،|—|\\\n|\\[|\\]|…|‥|¿|¡|;|、|\\(|：|。|\\)|，', re.IGNORECASE) from: [<function tone_marks at 0x7c0010ad40>, <function period_comma at 0x7c0010ade0>, <function colon at 0x7c0010ae80>, <function other_punctuation at 0x7c0010af20>]>
+[DEBUG  ] timeout: None
+[WARNING] 'pt-br' has been deprecated, falling back to 'pt'. This fallback will be removed in a future version.
+[DEBUG  ] langs: {'af': 'Afrikaans', 'am': 'Amharic', 'ar': 'Arabic', 'bg': 'Bulgarian', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'es': 'Spanish', 'et': 'Estonian', 'eu': 'Basque', 'fi': 'Finnish', 'fr': 'French', 'fr-CA': 'French (Canada)', 'gl': 'Galician', 'gu': 'Gujarati', 'ha': 'Hausa', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'iw': 'Hebrew', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lt': 'Lithuanian', 'lv': 'Latvian', 'ml': 'Malayalam', 'mr': 'Marathi', 'ms': 'Malay', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pa': 'Punjabi (Gurmukhi)', 'pl': 'Polish', 'pt': 'Portuguese (Brazil)', 'pt-PT': 'Portuguese (Portugal)', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'yue': 'Cantonese', 'zh-CN': 'Chinese (Simplified)', 'zh-TW': 'Chinese (Mandarin/Taiwan)', 'zh': 'Chinese (Mandarin)'}
+[DEBUG  ] pre-processing: <function tone_marks at 0x7c001096c0>
+[DEBUG  ] pre-processing: <function end_of_line at 0x7c0010aa20>
+[DEBUG  ] pre-processing: <function abbreviations at 0x7c0010aac0>
+[DEBUG  ] pre-processing: <function word_sub at 0x7c0010ab60>
+[DEBUG  ] text_parts: ['Você realmente deseja sair,']
+[DEBUG  ] text_parts: 1
+[DEBUG  ] data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Voc%5C%5Cu00ea%20realmente%20deseja%20sair%2C%5C%22%2C%5C%22pt%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+[DEBUG  ] Starting new HTTPS connection (1): translate.google.com:443
